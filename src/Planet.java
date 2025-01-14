@@ -2,11 +2,11 @@ public class Planet {
 
     //Instance variables
     private String name;
-    private int radius;
-    private int mass;
+    private double radius;
+    private double mass;
 
     // Constructor
-    public Planet(String name, int radius, int mass) {
+    public Planet(String name, double radius, double mass) {
         this.name = name;
         this.radius = radius;
         this.mass = mass;
@@ -17,11 +17,11 @@ public class Planet {
         return name;
     }
 
-    public int getRadius() {
+    public double getRadius() {
         return radius;
     }
 
-    public int getMass() {
+    public double getMass() {
         return mass;
     }
 
@@ -30,15 +30,18 @@ public class Planet {
         this.name = name;
     }
 
-    public void setRadius(int radius) {
+    public void setRadius(double radius) {
         this.radius = radius;
     }
 
-    public void setMass(int mass) {
+    public void setMass(double mass) {
         this.mass = mass;
     }
     // Planeten Mars har en radius på 3389.5 km og en masse på 6.39E23 kg
-    public String toString() {
-        return "Planet{name='" + name + '\'' + ", radius=" + radius + " km, mass=" + mass + " kg}";
+
+    public void printPlanetInfo() {
+        System.out.println("Planeten " + name + " har en radius på "
+                + radius + " km, og en masse på " + mass + " kg.");
     }
+
 }
