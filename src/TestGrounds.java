@@ -1,11 +1,11 @@
-import java.util.Scanner;  // Import the Scanner class
-
-class Main {
+public class TestGrounds {
     public static void main(String[] args) {
-        Scanner myObj = new Scanner(System.in);  // Create a Scanner object
-        System.out.println("Enter username");
 
-        String userName = myObj.nextLine();  // Read user input
-        System.out.println("Username is: " + userName);  // Output user input
+        Car car1 = new Car();
+
+        car1.make = "Toyota";
+        car1.model = "MR2";
+        car1.year = 2002;
+
     }
 }

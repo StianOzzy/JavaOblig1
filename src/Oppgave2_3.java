@@ -1,3 +1,12 @@
+
+/*
+b) En klasse kalt "Oppgave2_3.java". Denne må ha en main-metode slik
+at du får kjørt den. Du skal her instansiere noen Planet-objekter og
+deretter skrive ut informasjon om hver av disse til output på følgende format:
+Planeten Mars har en radius på 3389.5 km og en masse på 6.39E23 kg
+
+*/
+
 public class Oppgave2_3 {
 
     public static void main(String[] args) {

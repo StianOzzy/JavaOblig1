@@ -14,6 +14,10 @@ Planet planet = new Planet("Mars", 3889.5, 6.39E23);
 Husk å gjøre instansvariablene private, og lag get- og set-metoder.
 Da får vi en innkapsling av disse (ett av prinsippene i OOP).
 
+*/
+
+
+/*
 b) En klasse kalt "Oppgave2_3.java". Denne må ha en main-metode slik
 at du får kjørt den. Du skal her instansiere noen Planet-objekter og
 deretter skrive ut informasjon om hver av disse til output på følgende format:
